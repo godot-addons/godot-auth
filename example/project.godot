@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="Godot Auth"
+run/main_scene="res://main.tscn"
+run/disable_stdout=true
+run/disable_stderr=true
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=360
+window/size/height=720
+
+[gdnative]
+
+singletons=[  ]
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
